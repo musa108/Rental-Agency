@@ -1,0 +1,283 @@
+.Landing--image {
+  @apply w-full h-full object-cover relative;
+}
+/* NavBar */
+.nav--bar {
+  @apply absolute top-0 flex items-center mt-4 lg:gap-[18rem] gap-[3rem];
+}
+.nav--logo {
+  @apply lg:mx-[5rem] w-[32px] mx-[2rem] lg:w-[100px];
+}
+.nav--menu {
+  @apply flex lg:gap-x-8  lg:mt-6 text-[#fff] font-[sans] font-[500] text-[0.75rem] lg:text-[1.125rem] gap-x-3;
+}
+/* Hero */
+.hero {
+  @apply absolute top-[2rem]  lg:top-[9.41rem] flex items-center justify-center lg:left-[15rem] left-[3rem];
+}
+.hero .hero--text {
+  @apply text-[1rem] w-[10rem] lg:text-[2rem] lg:w-[20rem] text-[#fff] font-[700] font-[inter];
+}
+.hero--box .hero--map {
+  @apply w-[10rem] lg:w-[25rem];
+}
+.hero--buttons {
+  @apply flex items-center text-[8px] p-[4px] ml-[0.5rem] lg:text-[14px] bg-[#fff] w-[9rem] lg:w-[22.5rem] lg:ml-5 lg:p-3 rounded-sm lg:rounded-xl;
+}
+.hero--buttons .type,
+.hero--buttons .neighborhood {
+  @apply flex items-center  gap-x-1 text-center bg-[#E6E6E6] lg:p-2 border-[1px] border-[#d4d4d4];
+}
+.arrow--down {
+  @apply w-[8px] h-[8px] lg:mt-1;
+}
+.hero--buttons .Search {
+  @apply bg-[#23A6F0] p-1 lg:p-3;
+}
+.hero--buttons .Search img {
+  @apply w-[5px] lg:w-4;
+}
+/* Details section */
+.details {
+  @apply mt-4 lg:mt-8;
+}
+.Heading {
+  @apply text-[0.75rem] lg:text-[1.48rem] ml-[1.25rem] lg:ml-[2rem] font-bold;
+}
+.details hr {
+  @apply w-[6rem] lg:w-[14rem] h-[3px] bg-[#F4511E] lg:ml-[2rem] ml-[1.25rem];
+} 
+.detail-section {
+  @apply flex items-center;
+}
+.detail-section img {
+  @apply w-[10rem] lg:w-[30rem];
+}
+.detail-section .house-detials {
+  @apply grid grid-cols-3 lg:gap-y-36;
+}
+.house-detials img {
+  @apply lg:w-[4.8rem] w-[1rem];
+}
+.house-detials p {
+  @apply lg:text-[1rem] text-[0.56rem];
+}
+/* Property section */
+.property {
+  @apply bg-[#F5F5F5] p-2;
+}
+.property--list {
+  @apply flex justify-between lg:p-8 items-center;
+}
+.list--text hr {
+  @apply w-[2rem] lg:w-[4rem] h-[3px] bg-[#F4511E] lg:ml-8 ml-5;
+}
+.property--list button {
+  @apply bg-[#f4511e] text-[#fff] text-[0.5rem] p-1 lg:text-[0.75rem] lg:p-2;
+}
+.properties {
+  @apply grid grid-cols-3 gap-[2rem] lg:ml-8;
+}
+.Room {
+  @apply border border-opacity-25 border-[#979797] rounded-t-full lg:w-[300px] w-[125px];
+}
+.Room img {
+  @apply lg:w-[300px] w-[125px];
+}
+.Room-description {
+  @apply lg:p-4;
+}
+.Room .Room-description h1 {
+  @apply lg:text-[1.65rem] text-[0.75rem] font-[700] font-[sans] capitalize lg:w-[300px];
+}
+.Room .Room-description p {
+  @apply text-[#818181] ;
+}
+.Room .Room-description h3 {
+  @apply text-[#f4511e] lg:text-[1.65rem] font-[700]  font-[sans];
+}
+.Room .room-icon {
+  @apply flex items-center;
+}
+.Room .room-icon img {
+  @apply w-[1rem];
+}
+.Room .room-icon p {
+  @apply font-[600] lg:text-[1.125rem];
+}
+.bed,
+.shower,
+.size {
+  @apply flex items-center justify-center border border-opacity-25 border-[#979797] gap-1 w-[45px] h-[30px] lg:w-[105.5px] lg:h-[50px] mt-2;
+}
+/* Property button */
+.Property--button{
+  @apply flex items-center text-center justify-center
+}
+.Property--button .first,.Property--button .next{
+  @apply p-2 w-[45px] lg:p-4 lg:w-[90px] text-center border border-opacity-20 border-[#818181]  lg:font-[700]
+}
+.Property--button .first{
+  @apply text-[#BDBDBD] bg-[#F3F3F3] rounded-s-lg
+}
+.Property--button .next{
+  @apply text-[#f4511e] rounded-e-lg
+}
+.Property--button .One,.Property--button .two,.Property--button .three{
+  @apply w-[20px] p-2 lg:p-4 border border-opacity-20 border-[#818181] lg:font-[700]
+}
+.Property--button .One,.Property--button .three{
+  @apply text-[#f4511e]
+}
+.Property--button .two{
+  @apply bg-[#f4511e] text-center text-[#fff]
+}
+/* Property description */
+.Property--description{
+  @apply flex items-center justify-center lg:gap-8 mt-4 gap-2
+}
+.Property--description .Description{
+  @apply grid grid-cols-2 lg:gap-x-4 gap-2
+}
+.Property--description .Description div img{
+  @apply w-[150px] lg:w-[220px]
+}
+.bedroom p, .spray p{
+  @apply relative lg:top-[-17rem] top-[-7.5rem] text-[0.5rem] lg:text-[1rem] text-center text-[#fff] font-[inter] font-[600]
+}
+.happiness p,.friends p{
+  @apply relative lg:top-[-13rem] top-[-5.5rem] text-[0.5rem] lg:text-[1rem]  text-center text-[#fff] font-[inter] font-[600]
+}
+.description--text h1{
+  @apply lg:text-[2.5rem] text-[1.125rem] w-[180px] font-[inter] font-[800] lg:w-[400px]
+}
+.description--text p{
+  @apply lg:text-[1.125rem] text-[0.6rem] w-[180px] font-[inter] font-[400]  lg:w-[400px]
+}
+.description--text button{
+  @apply bg-[#f4511e] lg:p-2 lg:w-[185px] p-1 text-[#fff] rounded-md font-[inter]
+}
+
+/* Property Addition Section */
+.Property--addition{
+  @apply flex flex-col justify-center items-center
+}
+.Property--addition h1{
+  @apply text-center font-[inter] font-[400] lg:text-[1.5rem] text-[1rem]
+}
+.Property--addition .input--section{
+  @apply border border-opacity-10  lg:w-[900px] shadow-lg lg:p-4 
+}
+.Property--addition .input--section h3{
+  @apply text-center text-[#f4511e] font-[poppins] font-[700] lg:text-[1.75rem] 
+}
+.input--section .input--selection{
+  @apply grid grid-cols-3 lg:p-4 p-3 gap-1
+}
+.input--selection .input--text,.input--selection .input--select{
+  @apply lg:mb-4 mb-2
+}
+.input--text label,.input--select label,.input--description label,.input--upload label{
+  @apply font-[poppins] font-[400] lg:text-[1rem] text-[0.75rem]
+}
+.input--text label span ,.input--select label span,.input--description label span{
+  @apply text-[#f4511e]
+}
+.input--text input{
+  @apply border p-1 lg:w-[256px] bg-[#f9f9f9] rounded-md w-[110px]
+}
+.input--select select{
+  @apply border p-1 lg:w-[256px] bg-[#f9f9f9] rounded-md w-[110px]
+}
+ .input--description,.input--upload{
+  @apply lg:ml-4 ml-2
+}
+.input--description textarea{
+  @apply lg:w-[756px] w-[320px] lg:h-[120px] border bg-[#f9f9f9] rounded-md
+}
+.input--upload .upload--box{
+  @apply lg:w-[756px] w-[320px] lg:h-[80px] border border-[#f4511e] border-dashed flex flex-col items-center lg:p-4 rounded-md
+}
+.upload--box h4{
+  @apply font-[poppins] font-[500] 
+}
+.upload--box h4 span{
+  @apply text-[#f4511e]
+}
+.upload--box p{
+  @apply text-[0.75rem] opacity-50
+}
+ .input--section .input--button{
+  @apply bg-[#f4511e] text-[#fff] lg:p-2 p-1 lg:w-[350px] lg:mt-4 mt-2 lg:ml-[25rem] ml-[6.56rem] rounded-md 
+}
+/* Property owner section */
+.Property-owner{
+  @apply bg-[#F4511E] bg-opacity-5 lg:mt-[100px] mt-[50px] flex 
+}
+.Quote--section{
+  @apply lg:mt-10
+}
+.Quote--section .quote{
+  @apply relative opacity-20 w-[35px] lg:w-[80px] top-[1rem] lg:top-[4.63rem] left-[0.75rem] lg:left-[3.65rem]
+}
+.Quote--section h1{
+  @apply font-[inter] text-[0.5rem] lg:text-[1.125rem] lg:w-[635px] w-[180px] ml-[24px] lg:ml-[90px] mt-[6px] lg:mt-[50px]
+}
+.owner--section{
+  @apply flex items-center lg:gap-2 gap-1 lg:ml-[90px] ml-[20px] lg:mt-[55px] mt-3
+}
+.owner--section img{
+@apply lg:w-[61px] w-[25px]
+}
+.owner--section h3{
+  @apply font-[inter] font-[700] text-[0.56rem] lg:text-[1.125rem] text-[#f4511e]
+}
+.owner--section p{
+  @apply font-[inter] font-[400] lg:text-[1rem] text-[0.5rem]
+}
+/* footer */
+.Footer{
+  @apply lg:mt-[100px] mt-[30px]
+}
+.Footer hr{
+  @apply bg-[#f4511e] h-[2px] lg:w-[1015px] w-[380px] lg:ml-[75px] ml-[20px]
+}
+.Footer .logo{
+  @apply lg:mt-[100px] mt-[30px] flex items-center justify-center lg:space-x-[250px] space-x-[65px]
+}
+.logo h1{
+  @apply lg:text-[2rem] font-[inter] font-[700]
+}
+.logo .contacts{
+  @apply flex flex-col lg:gap-y-4 gap-y-2
+}
+.contacts p{
+  @apply font-[assistant] font-[400] lg:text-[0.88rem] text-[0.5rem]
+}
+.contacts svg{
+  @apply lg:w-[24px] w-[12px] lg:h-[24px] h-[12px] text-[#f4511e]
+}
+.location,.phone,.print,.social{
+  @apply flex items-center lg:gap-[0.5rem] gap-[0.2rem]
+}
+.contact{
+  @apply flex items-center lg:gap-[7.5rem] gap-[4.3rem]
+}
+.social h3,.footer--text p{
+  @apply font-[assistant] font-[400] text-[#0A142F] opacity-50 lg:text-[14px] text-[0.5rem]
+}
+.icon{
+  @apply flex items-center lg:gap-[1.125rem] gap-[0.6rem]
+}
+.icon img{
+  @apply w-[14px] lg:w-[25px]
+}
+.footer--text{
+  @apply flex items-center justify-center lg:gap-[1rem] gap-[0.7rem] lg:mt-[50px] mt-[25px]
+}
+.footer--text ul{
+  @apply flex items-center lg:gap-4 gap-1
+}
+.footer--text ul li{
+  @apply lg:text-[14px] text-[6px] font-[inter] font-[400] text-[#0A142F]
+}
