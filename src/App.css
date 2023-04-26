@@ -208,7 +208,7 @@
   @apply text-[0.75rem] opacity-50
 }
  .input--section .input--button{
-  @apply bg-[#f4511e] text-[#fff] lg:p-2 p-1 lg:w-[350px] lg:mt-4 mt-2 lg:ml-[25rem] ml-[6.56rem] rounded-md 
+  @apply bg-[#f4511e] text-[#fff] lg:p-2 p-1 lg:w-[350px] lg:mt-4 mt-2 mb-1 lg:ml-[25rem] ml-[6.56rem] rounded-md 
 }
 /* Property owner section */
 .Property-owner{
